@@ -8,18 +8,19 @@ from random import choice
 # Create List Of SoftWare
 
 webSeries=["Photoshop","Premium pro","Visual Studio Code","Lightroom"]
+#["shub","hey"]]
 
 # Print a random Movie  from Lits
 
 # print(choice(webSeries))
 
 # Input Mood
- 
-print(" What Mood Are You In ? ")
+
+print("What Mood Are You In ? ")
 mood = input()
 
 # Loop through and find a matching mood.
 
-for iteam in webSeries:
-    if iteam[1] == mood:
-        print(mood + "WebSeries"+ iteam[0])
+for item in webSeries:
+    if item[1] == mood:
+        print(mood + "WebSeries"+ item[0])
